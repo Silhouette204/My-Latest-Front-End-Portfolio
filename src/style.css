@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+:root{
+  --primary:#f8f8f8;
+  --secondary: #222222;
+  --dark: #7b7b7b;
+  --light:#FFFFFF; 
+  --backdrop:#DCDCDC;
+}
+
+@theme{
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-dark: var(--dark);
+  --color-light: var(--light);
+  --color-backdrop: var(--backdrop);
+}
+
+  .link-nav{
+   @apply font-semibold text-secondary hover:bg-dark hover:text-light hover:transition-colors p-2 rounded-lg text-xl 
+  }
+
+  .container-1{
+    @apply max-w-7xl mx-auto 
+  }
