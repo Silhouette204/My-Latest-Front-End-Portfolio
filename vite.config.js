@@ -8,7 +8,7 @@ const __dirname = fileURLToPath(new URL(".", import.meta.url));
 
 export default defineConfig ({
 
-   base: "./",
+   base: "./My-Latest-Front-End-Portfolio",
 
   plugins: [
     tailwindcss()
