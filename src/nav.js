@@ -1,7 +1,3 @@
-
-
-
-
 export function initNav() {
 document.addEventListener('DOMContentLoaded', () => {
   //side menu bar container kukunin para ma control//
