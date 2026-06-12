@@ -7,64 +7,37 @@
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <title>backdrop-navbar</title>
   </head>
-  <body class="bg-primary font-poppins">
+  <body class="min-h-screen flex flex-col bg-primary font-poppins">
     
-<div class="flex flex-row items-center gap-3 mt-5 justify-between mx-5 lg:mx-10">
-    
-      <div class="flex flex-row items-center gap-3">
-      <button id="menu-btn" class="cursor-pointer text-2xl text-secondary hover:duration-300 hover:ease-in-out hover:bg-secondary px-3 py-2 rounded-full  hover:text-light">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-    
-  <a href="#" class="text-3xl font-bold text-secondary tracking-tight"><img src="./src/assets/icon-img.png" class="w-8 h-10 lg:w-13 lg:h-16" alt=""></a>
-</div>
+    <div id="nav-container">
+  <!--navigation is inside the renderNavigation in nav.js-->
+  </div>
 
-  <a href="#" class="text-base lg:text-lg font-semibold text-secondary hover:text-dark hover:underline">Book a Call<i class="fa-solid fa-arrow-right-from-bracket ml-2"></i></a>
- 
+<!-- Ginamit ang min-h-[calc(100vh-80px)] para pwedeng humaba kung kailangan, at may pt-10 para hindi sadsad sa navbar -->
+<section id="main" class="flex-1 min-h-[calc(100vh-100px)] flex items-center pt-10 pb-16 lg:py-0">
+  <!-- Idinagdag ang gap-y-16 para sa mobile kapag nagpatong ang text at image -->
+  <div class="container mx-auto px-5 lg:px-10 grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-16 items-center w-full">
+    
+    <div class="flex flex-col gap-5 items-center lg:items-start">
+      <h1 class="text-2xl md:text-3xl font-bold text-secondary text-center lg:text-left leading-relaxed">
+        👋 Hi, I'm <span class="text-dark">John Lester Burce</span>. <br>
+        I build amazing web experiences. Especially in creating responsive and user-friendly interfaces.
+      </h1>
+      <p class="text-base md:text-lg text-dark text-center lg:text-left max-w-xl leading-relaxed">
+        "I am a Full-Stack Enthusiast specializing in building clean UI/UX experiences and learning using MERN stack and Tailwind CSS. I focus on writing optimized, maintainable code and leveraging modern build tools like Vite to deliver blazing-fast web applications that solve real-world problems."
+      </p>
+
+      <a href="#about" class="mt-5 text-lg text-secondary hover:text-dark hover:underline flex items-center gap-2 transition duration-300">
+        Scroll down <i class="fa-solid fa-arrow-down-long animate-bounce"></i>
+      </a>
     </div>
 
-     <div id="backdrop" class="fixed inset-0 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300 z-40"></div>
-  
-<aside id="side-menu" class=" fixed top-0 left-0 h-screen w-64 bg-light text-primary transition-transform duration-300 z-50 transform -translate-x-full">
-
-     <div class="flex flex-row items-center gap-3 m-5">
-      <button id="close-menu-btn" class="cursor-pointer text-2xl text-secondary hover:duration-300 hover:ease-in-out hover:bg-secondary px-4 py-2 rounded-full m-1 hover:text-light">
-        <i class="fa-solid fa-xmark"></i>
-      </button>
- <a href="#" class="text-3xl font-bold text-secondary tracking-tight"><img src="./src/assets/icon-img.png" class="w-8 h-10 lg:w-13 lg:h-16" alt=""></a>
+    <!-- Nilagyan natin ng kaunting padding bottom (pb-5) ang image div para hindi ito dumidikit sa puting background ng About section -->
+    <div class="flex justify-center items-center pb-5 lg:pb-0">
+      <img src="./src/assets/main-img.png" class="w-64 sm:w-72 md:w-80 lg:w-96 h-auto object-cover rounded-xl" alt="John Lester Burce">
     </div>
 
- <ul class="flex flex-col gap-4 mx-5 mt-5">
-  <li class="link-nav"><i class="fa-solid fa-house mr-4"></i><a href="#">Home</a></li>
-  <li class="link-nav"><i class="fa-solid fa-address-card mr-4"></i><a href="#">About</a></li>
-  <li class="link-nav"><i class="fa-solid fa-fire-flame-curved mr-4"></i><a href="#">Experience</a></li>
-  <li class="link-nav"><i class="fa-solid fa-box-archive mr-4"></i><a href="#">Projects</a></li>
-  <li class="link-nav"><i class="fa-solid fa-address-book mr-4"></i><a href="#">Contacts</a></li>
- </ul>
-    </aside>
-    
-<section id="main" class="min-h-[calc(100vh-80px)] flex items-center">
-      <div class="container-1 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-        <div class="flex flex-col gap-5 mt-15 items-center">
-
-          <h1 class="text-2xl md:text-3xl font-bold text-secondary text-center">
-            👋 Hi, I'm <span class="text-dark">John Lester Burce</span>. </br>
- I build amazing web experiences. Especially in creating responsive and user-friendly interfaces.
-          </h1>
-          <p class="text-lg text-dark text-center">
-            "I am a Full-Stack Entusiast specializing in building clean UI/UX experiences and learning using MERN stack and Tailwind CSS. I focus on writing optimized, maintainable code and leveraging modern build tools like Vite to deliver blazing-fast web applications that solve real-world problems."
-          </p>
-
-          <a href="#about" class="my-5 text-lg text-secondary hover:text-dark hover:underline">
-            Scroll down<i class="ml-2 fa-solid fa-arrow-down-long"></i>
-          </a>
-        </div>
-
-       <div class="flex justify-center items-center">
-  <img src="./src/assets/main-img.png" class="mt-5 w-68 sm:w-64 md:w-72 lg:w-80 h-auto object-cover" alt="John Lester Burce">
-</div>
-
-      </div>
+  </div>
 </section>
 
 <section id="about" class="mt-20 bg-light py-10">
