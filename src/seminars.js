@@ -87,4 +87,3 @@ export function renderSeminar() {
     `;
   }).join('');
 }
-
