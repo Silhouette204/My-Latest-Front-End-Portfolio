@@ -6,9 +6,9 @@ const dataExp = [
     category: ["HTML", "Tailwind CSS", "JavaScript", "Vite", "Node JS"],
     // Nagdagdag tayo ng images array para dito lang sa specific project na ito lalabas ang mga preview images
     images: [
-      "./src/assets/latest-1.png",
-      "./src/assets/latest-2.png",
-      "./src/assets/latest-3.png"
+      "/latest-1.png",
+      "/latest-2.png",
+      "/latest-3.png"
     ],
     project: "https://product-grid-e-commerce.vercel.app/"
   },
