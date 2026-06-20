@@ -17,7 +17,7 @@ export function renderNavigation() {
         </a>
       </div>
 
-      <a href="#" class="text-base lg:text-lg font-semibold text-secondary hover:text-dark hover:underline">
+      <a href="#contact" class="text-base lg:text-lg font-semibold text-secondary hover:text-dark hover:underline">
         Book a Call<i class="fa-solid fa-arrow-right-from-bracket ml-2"></i>
       </a>
     </div>
