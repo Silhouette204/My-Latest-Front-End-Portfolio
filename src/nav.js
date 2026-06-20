@@ -34,11 +34,11 @@ export function renderNavigation() {
       </div>
 
       <ul class="flex flex-col gap-4 mx-5 mt-5">
-        <li class="link-nav"><i class="fa-solid fa-house mr-4"></i><a href="#">Home</a></li>
-        <li class="link-nav"><i class="fa-solid fa-address-card mr-4"></i><a href="#">About</a></li>
-        <li class="link-nav"><i class="fa-solid fa-fire-flame-curved mr-4"></i><a href="#">Experience</a></li>
-        <li class="link-nav"><i class="fa-solid fa-box-archive mr-4"></i><a href="#">Projects</a></li>
-        <li class="link-nav"><i class="fa-solid fa-address-book mr-4"></i><a href="#">Contacts</a></li>
+        <li class="link-nav"><i class="fa-solid fa-house mr-4"></i><a href="#main">Home</a></li>
+        <li class="link-nav"><i class="fa-solid fa-address-card mr-4"></i><a href="#about">About</a></li>
+        <li class="link-nav"><i class="fa-solid fa-fire-flame-curved mr-4"></i><a href="#experiences">Experience</a></li>
+        <li class="link-nav"><i class="fa-solid fa-box-archive mr-4"></i><a href="#latest-work">Projects</a></li>
+        <li class="link-nav"><i class="fa-solid fa-address-book mr-4"></i><a href="#contact">Contacts</a></li>
       </ul>
     </aside>
   `;
