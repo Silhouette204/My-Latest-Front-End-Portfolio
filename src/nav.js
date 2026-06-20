@@ -11,7 +11,7 @@ export function renderNavigation() {
           <i class="fa-solid fa-bars"></i>
         </button>
         <a href="#" class="text-3xl font-bold text-secondary tracking-tight">
-          <img src="./src/assets/icon-img.png" class="w-8 h-10 lg:w-13 lg:h-16" alt="Logo">
+          <img src="/src/assets/icon-img.png" class="w-8 h-10 lg:w-13 lg:h-16" alt="Logo">
         </a>
       </div>
 
@@ -29,7 +29,7 @@ export function renderNavigation() {
           <i class="fa-solid fa-xmark"></i>
         </button>
         <a href="#" class="text-3xl font-bold text-secondary tracking-tight">
-          <img src="./src/assets/icon-img.png" class="w-8 h-10 lg:w-13 lg:h-16" alt="Logo">
+          <img src="/src/assets/icon-img.png" class="w-8 h-10 lg:w-13 lg:h-16" alt="Logo">
         </a>
       </div>
 
