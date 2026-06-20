@@ -1,3 +1,5 @@
+import logoUrl from './icon-img.png';
+
 export function renderNavigation() {
   const navigationContainer = document.querySelector('#nav-container');
 
@@ -11,7 +13,7 @@ export function renderNavigation() {
           <i class="fa-solid fa-bars"></i>
         </button>
         <a href="#" class="text-3xl font-bold text-secondary tracking-tight">
-          <img src="/icon-img.png" class="w-8 h-10 lg:w-13 lg:h-16" alt="Logo">
+          <img src="${logoUrl}" class="w-8 h-10 lg:w-13 lg:h-16" alt="Logo">
         </a>
       </div>
 
@@ -29,7 +31,7 @@ export function renderNavigation() {
           <i class="fa-solid fa-xmark"></i>
         </button>
         <a href="#" class="text-3xl font-bold text-secondary tracking-tight">
-          <img src="/icon-img.png" class="w-8 h-10 lg:w-13 lg:h-16" alt="Logo">
+          <img src="${logoUrl}" class="w-8 h-10 lg:w-13 lg:h-16" alt="Logo">
         </a>
       </div>
 

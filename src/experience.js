@@ -1,17 +1,18 @@
+import latest1 from './latest-1.png';
+import latest2 from './latest-2.png';
+import latest3 from './latest-3.png';
+
 const dataExp = [
   {
     title: "Computer Grid (Computer Ecommerce)",
     date: "Date: June 7, 2026",
-    purpose: "A web design computer hardware Online Store. Take absolute control of your workspace and game. Features zero-latency response tracking, durable ergonomic housing, and fully programmable macros to streamline both your competitive matches and daily coding workflows.",
+    purpose: "A web design computer hardware Online Store...",
     category: ["HTML", "Tailwind CSS", "JavaScript", "Vite", "Node JS"],
-    // Nagdagdag tayo ng images array para dito lang sa specific project na ito lalabas ang mga preview images
-    images: [
-      "/latest-1.png",
-      "/latest-2.png",
-      "/latest-3.png"
-    ],
+    // Assign the bundled reference variables directly to your array:
+    images: [latest1, latest2, latest3],
     project: "https://product-grid-e-commerce.vercel.app/"
   },
+  
   {
     title: "Parking Management Reservation System",
     date: "Date: April, 2026",
